@@ -4,25 +4,25 @@ public class Triangle {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
-		//輸入(x1,y1)座標
+		// 輸入(x1,y1)座標
 		System.out.print("Enter number for x1 : ");
 		double x1 = input.nextDouble();
 		System.out.print("Enter number for y1 : ");
 		double y1 = input.nextDouble();
 		
-		//輸入(x2,y2)座標
+		// 輸入(x2,y2)座標
 		System.out.print("Enter number for x2 : ");
 		double x2 = input.nextDouble();
 		System.out.print("Enter number for y2 : ");
 		double y2 = input.nextDouble();
 		
-		//輸入(x3,y3)座標
+		// 輸入(x3,y3)座標
 		System.out.print("Enter number for x3 : ");
 		double x3 = input.nextDouble();
 		System.out.print("Enter number for y3 : ");
 		double y3 = input.nextDouble();
 		
-		//計算三角形面積
+		// 計算三角形面積
 		calculateArea(x1, y1, x2, y2, x3, y3);		
 	}
 	public static void calculateArea(double x1, double y1, double x2, double y2, double x3, double y3) {
@@ -46,6 +46,7 @@ public class Triangle {
 
         // 計算 S
         double s = ( side1 + side2 + side3 ) / 2;
+		
         // 計算 a,b,c,d
         double a = s - side1;
         double b = s - side2;
