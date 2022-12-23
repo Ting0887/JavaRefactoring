@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.stream.IntStream;
 
 public class UserInput {
-	public void point(Scanner input) {
+	public void coordinate(Scanner input) {
 		// 讀取使用者輸入的三角形座標
         double[] coordinates = IntStream.range(0, 6)
             .mapToDouble(i -> {
